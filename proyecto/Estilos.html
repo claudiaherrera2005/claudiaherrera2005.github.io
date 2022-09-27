@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+  <style>
+    div.c2 {position:absolute; left:300px; top:300px; width:50px; height:50px;}
+     div.c1 {position:absolute; left:350px; top:300px; width:60px; height:90px;}
+    </style>
+</head>
+
+<body>
+  <p style="color:rgb(255, 0, 221); font-size:40px">como podemos definir el estilos de nuestras letras?</p>
+   
+   <h3> Estilos aunque usualmente se ubica dentro de la etiqueta "head", con el atributo "style"
+         puedes definir el estilo de tu contenido en términos de:</h3>
+
+       <li>Color</li> 
+       <li> Tamaño de fuente</li>
+       <li> Tipografía, etc.</li>
+    
+       <h2>Ejemplo:</h2> 
+        <p style="color:red; font-size:40px">Hola Mundo</p>
+        <script>
+          var flag=1;function t(){if(flag==1){N.style.top="75px";N.style.left="700px"}if(flag==2){N.style.top="115px";N.style.left="100px"}if(flag==3){N.style.top="300px";N.style.left="350px"}flag=flag+1;if(flag==4){flag=1}}function al(){alert("Me alegra!")}
+         </script>
+         <h2>Te gusto este ejemplo?</h2> 
+             <div id="N" class="c1">
+               <form>
+                 <input type="button" value="no" onmouseover="t()" />
+               </form>
+             </div>
+             <div id="Y" class="c2">
+               <form>
+                 <input type="button" value="si" onclick="al()" />
+               </form>
+             </div>
+</body>
+</html>

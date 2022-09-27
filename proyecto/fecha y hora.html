@@ -1,0 +1,20 @@
+<html lang="en">
+<head>
+    
+    <title>Fecha y Hora</title>
+</head>
+<body>
+    <script>
+        window.setInterval (BlinkIt, 500);
+        var color = "red";
+        function BlinkIt () {
+        var blink = document.getElementById ("blink");
+        color = (color == "#ffffff")? "red" : "#ffffff";
+        blink.style.color = color;
+        blink.style.fontSize='36px';}
+        </script>
+        <div id="blink">Hola!</div>
+        <div id="blink" onclick="parent.location='http://norfipc.com'">
+        Hola!</div>
+</body>
+</html>

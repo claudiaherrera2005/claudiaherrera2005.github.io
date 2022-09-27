@@ -1,0 +1,129 @@
+*{
+
+    padding: Opx; 
+    margin: 0px; 
+    box-sizing: border-box; 
+    font-family: 'Poppins', sans-serif;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+    
+}
+
+.contenedor {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+    
+
+          
+        #columnas{
+            column-count:5;
+            column-gap:20px;
+            column-rule:6px double black;
+            list-style: none;
+         }
+         .perfil a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-size: 18zpx;
+            font-weight: bold;
+            letter-spacing: 2px;
+            border-radius:5px;
+            padding: 12px ;
+            background-color: #85d9f5;
+    
+            }
+            .perfil a :hover{
+                background-color: #000;
+                color: rgb(240, 149, 205);
+                font-weight: bold;
+                letter-spacing: 2px; 
+                padding: 12px;
+            }
+        
+
+        body{
+            background: #8aafee;
+        }
+    
+        header{
+            width: 200vh;
+        }
+        
+        .navegacion{
+            width:200vh;
+            margin: 20px auto;
+            background: #fff;
+        }
+        
+        .navegacion ul{
+            list-style: none;
+        }
+        
+        .menu li a:hover{
+            color: #CE7D35;
+            transition: all .3s;
+    
+        }
+          h3 {
+            font-size: 36px;
+            color: #000;
+            font-family: 'Open Sans';
+            }
+              
+            #columnas{
+                column-count:5;
+                column-gap:20px;
+                column-rule:6px double black;
+                list-style: none;
+             }
+
+        header{
+         margin: 30px;
+         padding: 40px 0;
+        
+        }
+          .navbar{
+        width: 100%; 
+        height: 80px; 
+        background-color: rgb(174, 230, 172); 
+        display: flex; 
+        justify-content: space-around; 
+        align-items: center;
+        }
+    
+        
+        .menu a{
+            text-decoration: none; 
+            background-color: #faf4f4;
+            font-size: 18px; 
+            font-weight: bold; 
+            letter-spacing: 2px; 
+            padding: 12px;
+            border-radius:5px;
+            
+           
+        }
+            .menu a:hover{
+            text-decoration: underline;   
+           }
+                .contactanos a{
+                text-decoration: none;
+                color: rgb(0, 0, 0);
+                font-size: 18px;
+                font-weight: bold;
+                letter-spacing: 2px;
+                border-radius:5px;
+                padding: 12px ;
+                background-color: #74bbf5;
+        
+                }
+                .contactanos a :hover{
+                    background-color: #000;
+                    color: rgb(19, 11, 12);
+                    font-weight: bold;
+                    letter-spacing: 20px; 
+                    padding: 120px;
+                }
