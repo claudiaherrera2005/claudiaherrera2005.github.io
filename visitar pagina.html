@@ -1,0 +1,19 @@
+<html>
+    <title> "Clik aqui"</title>
+    <h1>Quieres visitar Star Wars</h1>
+    <title> Clikaqui.htm</title>
+    <body>
+        <a href="http://www.starwars.com/" onclick="return confirmar()"><div id="blink">Da click aqui </div></a>
+        <script>
+            window.setInterval (BlinkIt, 500);
+            var color = "blue";
+            function BlinkIt () {
+            var blink = document.getElementById ("blink");
+            color = (color == "#ffffff")? "blue" : "#ffffff";
+            blink.style.color = color;
+            blink.style.fontSize='36px';}
+            </script>
+        
+    </body>
+    
+</html>

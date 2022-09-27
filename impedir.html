@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    
+    <title>Prohibido dar clic derecho</title>
+<head>
+    <h1>No des click derecho!!</h1>
+</head>
+<body>
+    <script>
+        //<![CDATA[
+        function right(e) {
+        if (navigator.appName == 'Netscape' && e.which == 3) {
+        alert('Prohibido clic derecho');  
+        return false;}else
+        if (navigator.appName == 'Microsoft Internet Explorer' 
+        && event.button==2) {
+        alert('Prohibido clic derecho');return false;}return true;}
+        document.onmousedown = right;
+        //]]>
+        </script>
+        
+</body>
+</html>
